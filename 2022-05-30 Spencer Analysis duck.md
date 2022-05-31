@@ -23,14 +23,14 @@ The names of the services seem to indicate a variety of problems
   - `PlaceOrder` seems to be a command, but then it also seems to enact a separate storage update through the record accessor
 - Entirely too much information is being passed to the `_customerEventService.GetOrderPlacedMessage`. Fat events cause coupling (and slow queues)
 
-In short, it looks like there is dependency *injection* but the lack of dependency *inversion* is leading to coupled services, proliferating weak services abstractions in attempt at resuse and leading to rigid dependency structures.
+In short, it looks like there is dependency *injection* but the lack of dependency *inversion* is leading to coupled services. This causes attempts at resuse to proliferate weak services abstractions and leads to rigid dependency structures.
 
 
 ## Code Sample evaluation
 
 Small size is helpful for drawing attention to core issue. There's pretty much only one thing to look at.
 
-Does capture the class's dependency strategy. There is some for who owns the abstractions that are injected, but I can guess by the name that they are large header interfaces owned by some other singular service.
+Does capture the class's dependency strategy. There is some ambiguity around who owns the abstractions that are injected, but I can guess by the name that they are large header interfaces owned by some other singular service.
 
 
 ## Duck
