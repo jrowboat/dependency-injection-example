@@ -10,7 +10,7 @@
     - Changes to the order
 
 ## Desired focus
-- Build upon discussion of previous week, keeping in mind that OrderService acts as a beginner of the order fulfillment process
+- Build upon discussion of previous week, keeping in mind that OrderService acts as one piece of an order fulfillment system
 
 ## Ducking
 - What are the various business concerns of the order fulfillment process? source: [Wikipedia](https://en.wikipedia.org/wiki/Order_fulfillment)
@@ -54,6 +54,9 @@
 - Owns:
     - Invoicing/billing
     - Settlement
+### Notification service
+- Owns:
+    - Acknowledgement/confirmation
 
 ## My questions/curiosities to discuss
 - My motivation for picking the particular responsibilities of the order service that I chose was for a concern of the items being purchased. I envisioned the order service at its most essential functionality to be concerned with the sourcing allocation of items picked by the customer. However, once we have found the items a customer wants, that is outside of the scope of the system. At that point, we will pass along an order plan via an API to the warehouse where maybe we post an event detailing that we have a new order plan to fulfill.
