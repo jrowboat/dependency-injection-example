@@ -1,27 +1,28 @@
 
 public class OrderService : IOrderService {
-        private readonly ICustomerEventService _customerEventService;
-        private readonly ILogCreator _logCreator;
-        private readonly ICartAccessor _cartAccessor;
-        private readonly ICustomerService _customerService;
-        private readonly IOrderAccessor _orderAccessor;
-        private readonly IOrderRecordAccessor _orderRecordAccessor;
-        private readonly IOrderRecordHelper _orderRecordHelper;
 
-        public OrderService (ICustomerEventService customerEventService, ILogCreator logCreator, ICartAccessor cartAccessor, ICustomerService customerService, 
-            IOrderAccessor orderAccessor, IOrderRecordAccessor orderRecordAccessor, IOrderRecordHelper orderRecordHelper, ITransactionManager transactionManager)
+        public OrderService ()
         {
-            _customerEventService = customerEventService;
-            _logCreator = logCreator;
-            _cartAccessor = cartAccessor;
-            _customerService = customerService;
-            _orderAccessor = orderAccessor;
-            _orderRecordAccessor = orderRecordAccessor;
-            _orderRecordHelper = orderRecordHelper;
-            _transactionManager = transactionManager;
         }
 
-        public async Task<PlaceOrderResponse> PlaceOrder(Order order){
+        public record OrderId(Guid id){
+            public static OrderId NewId() {
+                return new OrderId(Guid.NewGuid());
+            }
+        };
+
+        public async Task<PlaceOrderResponse> PlaceOrder(){
+            // handle fulfillment of orders from start to finish
+            // - refund?
+            // - new order
+            // We handle the kickoff. Whatever needs to happen for the fulfillment process to start
+            // - We need an order id, and an event
+            Guid orderId = Guid.NewGuid();
+
+            orderAccess.CreateOrderDetails()
+            
+            notifer.Notify(Events.OrderPlaced, orderId);
+            
             var customer = _customerService.GetCustomer(order.CustomerId);
             var cart = _cartAccessor.GetCart(order.cartId);
             
