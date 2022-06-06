@@ -11,6 +11,7 @@
 
 ## Desired focus
 - Build upon discussion of previous week, keeping in mind that OrderService acts as one piece of an order fulfillment system
+- Implement dependency inversion at a class level
 
 ## Ducking
 - What are the various business concerns of the order fulfillment process? source: [Wikipedia](https://en.wikipedia.org/wiki/Order_fulfillment)
@@ -42,6 +43,8 @@
     - Delivery
     - Settlement
 - Order processing and shipment sound particularly similar to me, so I decided to lump them together for the sake of this exercise
+- How does the callee know about the abstraction created by the caller?
+    - Say order service and shipping service are two separate repos
 
 ## Outside services that exist for the sake of discussion
 ### Shipping Service
@@ -60,6 +63,7 @@
 
 ## My questions/curiosities to discuss
 - My motivation for picking the particular responsibilities of the order service that I chose was for a concern of the items being purchased. I envisioned the order service at its most essential functionality to be concerned with the sourcing allocation of items picked by the customer. However, once we have found the items a customer wants, that is outside of the scope of the system. At that point, we will pass along an order plan via an API to the warehouse where maybe we post an event detailing that we have a new order plan to fulfill.
-- Curiosity: In the scenario where a notification that a "Order plan" (view new contract) has been created is posted as some sort of event, who owns the abstraction for what is sent from the system that has the order plan to the system who is requesting the order plan?
-    - ShippingService is calling OrderService, asking for new order plans
+- Curiosity: In the scenario where a notification that a "Order plan" has been created is posted as some sort of event, who owns the abstraction for what is sent from the system that has the order plan to the system who is requesting the order plan?
+    - ShippingService (caller) is calling OrderService (callee), asking for new order plans
         - Does ShippingService own the abstraction for an API?
+- Curiosity: say shipping service and order service are two separate repos. How does shipping service, as the caller, let the order service know of the abstraction it has created for some method that returns order information? That way, shipping service at compile time is determining what the order service (or whatever information resource responsible for order information) is sending back. How is the order service aware of the abstraction that the shipping service created and is, as a result, dependent upon?
