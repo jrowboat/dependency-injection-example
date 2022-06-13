@@ -29,8 +29,6 @@
 - What concerns will the OrderService own in the order fulfillment process?
     - Order booking
         - Formal booking of an order by a customer (customer stating that they want to purchase items by click of "Purchase" button upon completing billing and shipping information)
-    - Order sourcing/planning
-        - Creating a plan to ship items
     - Changes to order
         - Modify an order if changes are made by the user
     - Returns
@@ -45,14 +43,30 @@
 - Order processing and shipment sound particularly similar to me, so I decided to lump them together for the sake of this exercise
 - How does the callee know about the abstraction created by the caller?
     - Say order service and shipping service are two separate repos
+- Shipping service doesn't know it is fulfilling orders, doesn't know that it is part of an ecommerce chain, just know it has to deal with shipping stuff
+- REQ: Don't want shipping service to know about order service and vice versa
+    - Q: How do we get shipping service to "do its thing" (plan/source, ship, track, and deliver) for us?
+        - Scenario 1: Order service publish event order booked, Shipping service subscribes to event, fires off call to get order information
+            - Problem: shipping service now knows it is part of an order fulfillment service by two points:
+                - listening to events now becomes part of the shipping service's concerns
+                    - now a shipping/event listening service (violates srp)
+                - calling a particular table (violates information hiding)
+        - Scenario 2: Order service calls a "shipping service" via service locator to conduct shipping
+            - Why is service locator toxic and violate information hiding?
+                - Creating a file that defines a relationship between an abstraction created by order service and the current service to resolve that abstraction to just makes the same problem look different
+                - adding more layers without solving anything
+        - Mutual dependency exists both ways. Question is, how do we reduce that as much as possible?
+            - Versioning removes the dependency of order service on any further development
+
+
 
 ## Outside services that exist for the sake of discussion
 ### Shipping Service
 - Owns:
-    - Order processing
     - Shipment
     - Tracking
     - Delivery
+    - shipment sourcing/planning
 ### Financial Service
 - Owns:
     - Invoicing/billing
