@@ -20,4 +20,4 @@
 ### "Readability can be enhanced via satisfying information hiding with a factory pattern (service locator) to remove the necessity of listing out inferfaces five different times (initialization, parameterization in constructor injection, and definition within constructor of class)"
 - service locator is a specific application of the factory patttern
 - Is factory pattern toxic?
-    - What is factory pattern aimed at?
+    - Not necessarily; service locator is as it exposes one class to a whole service library just for the use of one specific service, making itself more dependent
