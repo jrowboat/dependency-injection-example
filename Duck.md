@@ -27,10 +27,19 @@
 
 ## Random questions
 
-- what does it mean to be a dependency management approach? 
-    - Will a class be able to manage the services it depends upon to satisfy its intended function via the use of this approach?
-- What qualifies something as a dependency management approach?
-    - A strategy that allows for a component to utilize services it needs to satisfy its intended function
+### Dependency management definition (self definition) 
+    - DEF: The process by which a entity (class, project, repo, etc.) manages the services it depends upon to satisfy its intended function
+### Criteria for a dependency management strategy
+    - REQ: satisfy Inversion of Control
+    - REQ: hide information specific to any dependency
+    - REQ: promotes readability and comprehensibility in any system
+    - Class level management
+        - 
+
+- Q: Difference between accidental and secondary requirements (goals):
+    - Goals can be related to core problem
+    - Example: REQ of 30 mpg, goal of 35 mpg
+        - Related to core of problem, but not necessary to specific application
 
 ### "Readability can be enhanced via satisfying information hiding with a factory pattern (service locator) to remove the necessity of listing out inferfaces five different times (initialization, parameterization in constructor injection, and definition within constructor of class)"
 - service locator is a specific application of the factory patttern
