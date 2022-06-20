@@ -50,10 +50,10 @@
 ## Ducking - Third Run
 - How do I approach understanding IoC through the lens of DI?
     - Week-by-week implementations of DI, going through the different DI approaches
-    - REQ: Each week, expected artifacts
-        - Class (or files) implementing pattern of the week
-        - Build out definition in "Toolbox" section below
-        - Short answers for the following
+    - Each week, expected artifacts
+        - REQ: Class (or files) implementing pattern of the week
+        - REQ: Build out definition in "Toolbox" section below
+        - REQ: Short answers for the following
             - How is DI satisfied by this example?
             - How is IoC satisfied by this example?
 - Q: What are good scenarios for implementing each form of DI?
