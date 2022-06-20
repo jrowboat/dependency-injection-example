@@ -2,6 +2,9 @@
 
 ## Motivation
 - Create an example of dependency injection from work for discussion in class of what is done well and what can be improved.
+- understand my toolbox of common injection approaches
+- understand how inversion is different and why it matters
+- understand the main ways injection can fail to deliver value and why
 
 ## Requirements
 - Further identify the responsibility of the OrderService
