@@ -45,3 +45,36 @@
 - service locator is a specific application of the factory patttern
 - Is factory pattern toxic?
     - Not necessarily; service locator is as it exposes one class to a whole service library just for the use of one specific service, making itself more dependent
+
+
+## Ducking - Third Run
+- How do I approach understanding IoC through the lens of DI?
+    - Week-by-week implementations of DI, going through the different DI approaches
+    - REQ: Each week, expected artifacts
+        - Class (or files) implementing pattern of the week
+        - Build out definition in "Toolbox" section below
+        - Short answers for the following
+            - How is DI satisfied by this example?
+            - How is IoC satisfied by this example?
+- Q: What are good scenarios for implementing each form of DI?
+    - Contructor injection
+    - Setter injection
+    - Interface injection
+    - Parameter injection
+
+## Toolbox of common injection approaches
+
+### How do DI and IoC differ?
+- IoC is a programming principle
+- DI is a design pattern, a means by which IoC is implemented in a system
+
+### What are the common injection approaches
+- Constructor Injection
+- Setter Injection
+- Interface Injection
+- Parameter Injection
+
+## How and Why DI manages to satisfy IoC
+- Use of interfaces hides functionality behind the interface for classes consuming said interface
+
+## How and Why DI fails to satisfy IoC
