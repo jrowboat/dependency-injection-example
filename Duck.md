@@ -54,19 +54,23 @@
         - REQ: Class (or files) implementing pattern of the week
         - REQ: Build out definition in "Toolbox" section below
         - REQ: Short answers for the following
-            - How is DI satisfied by this example?
-            - How is IoC satisfied by this example?
-- Q: What are good scenarios for implementing each form of DI?
-    - Contructor injection
-    - Setter injection
-    - Interface injection
-    - Parameter injection
+            - How is Dependency Injection (DI) satisfied by this example?
+            - How is Inversion of Control (IoC) satisfied by this example? (also the D principle)
+            - How is Inversion of Control (IoC) not satisfied by this example?
+- Q: What are good scenarios for implementing IoC?
+    - Contructor injection pattern
+    - Setter injection pattern
+    - Interface injection pattern
+    - Parameter injection pattern
+    - Service locator pattern
+        - Is this good or bad? need to do the work
+        - Value in understanding whether it is good or it is bad
 
 ## Toolbox of common injection approaches
 
 ### How do DI and IoC differ?
 - IoC is a programming principle
-- DI is a design pattern, a means by which IoC is implemented in a system
+- DI is a DESIGN PATTERN, a means by which IoC is implemented in a system
 
 ### What are the common injection approaches
 - Constructor Injection
