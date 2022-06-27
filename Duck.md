@@ -1,3 +1,5 @@
+# Duck - First and Second Run
+
 ## Dependency management
 - What forms of dependency management exist?
     - Nuget: Can apply ranges to package version to limit package that can be downloaded. However, this doesn't stop a package creator from stopping support of such versions. Partially satisfies dependency inversion, but not acceptable
@@ -78,3 +80,6 @@
 - Use of interfaces hides functionality behind the interface for classes consuming said interface
 
 ## How and Why DI fails to satisfy IoC
+
+
+## Duck - Fourth run - Service Locator
