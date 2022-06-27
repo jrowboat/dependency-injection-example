@@ -8,29 +8,29 @@ namespace ServiceLocator.StrongExample
         void ExecuteService();  
     }  
     
-    public class LoggingService : IService  
+    public class ReturnService : IService  
     {  
         public void ExecuteService()  
         {  
-            Console.WriteLine("Executing Log Service");  
+            Console.WriteLine("Executing Return Service");  
         }  
     }  
   
     public static class ServiceLocator  
     {  
-        public static IService ObjService = null;  
+        public static IService objectService = null;  
           
         //Service locator function returning strong type   
-        public static IService SetLocation(IService tmpser)  
+        public static IService GetService(IService tempService)  
         {  
-            if (ObjService == null) return new LoggingService();  
-            return ObjService;  
+            if (objectService == null) return new ReturnService();  
+            return objectService;  
         }  
           
         //Execute service  
         public static void ExecuteService()  
         {  
-            ObjService.ExecuteService();  
+            objectService.ExecuteService();  
         }  
     }  
   
@@ -38,8 +38,8 @@ namespace ServiceLocator.StrongExample
     {  
         static void Main(string[] args)  
          {  
-           IService svr =  ServiceLocator.SetLocation(new LoggingService());  
-           svr.ExecuteService();  
+           IService service =  ServiceLocator.GetService(new ReturnService());  
+           service.ExecuteService();  
            Console.ReadLine();  
         }  
     }  
