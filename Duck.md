@@ -64,7 +64,7 @@
     - Interface injection
     - Parameter injection
 
-## Toolbox of common injection approaches
+### Toolbox of common injection approaches
 
 ### How do DI and IoC differ?
 - IoC is a programming principle
@@ -76,10 +76,10 @@
 - Interface Injection
 - Parameter Injection
 
-## How and Why DI manages to satisfy IoC
+### How and Why DI manages to satisfy IoC
 - Use of interfaces hides functionality behind the interface for classes consuming said interface
 
-## How and Why DI fails to satisfy IoC
+### How and Why DI fails to satisfy IoC
 
 
 # Duck - Fourth run - Service Locator
