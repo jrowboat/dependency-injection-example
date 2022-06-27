@@ -49,7 +49,7 @@
     - Not necessarily; service locator is as it exposes one class to a whole service library just for the use of one specific service, making itself more dependent
 
 
-## Ducking - Third Run
+# Ducking - Third Run
 - How do I approach understanding IoC through the lens of DI?
     - Week-by-week implementations of DI, going through the different DI approaches
     - Each week, expected artifacts
@@ -82,4 +82,4 @@
 ## How and Why DI fails to satisfy IoC
 
 
-## Duck - Fourth run - Service Locator
+# Duck - Fourth run - Service Locator
