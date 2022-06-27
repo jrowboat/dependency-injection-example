@@ -80,14 +80,3 @@
 - Use of interfaces hides functionality behind the interface for classes consuming said interface
 
 ### How and Why DI fails to satisfy IoC
-
-
-# Duck - Fourth run - Service Locator
-
-## Questions
-
-### What ways exist to implement the service locator design pattern in a system?
-
-### How does the service locator pattern satisfy the "Dependency Inversion" principle of SOLID?
-
-### How does the service locator pattern not satisfy the "Dependency Inversion" principle of SOLID?
