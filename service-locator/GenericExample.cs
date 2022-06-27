@@ -3,29 +3,29 @@ using System.Collections.Generic;
 using System.Text;  
 namespace ServiceLocator.GenericExample
 {  
-    public interface IServiceA  
+    public interface IReturnService
     {  
         void Execute();  
     }  
   
-    public class ServiceA : IServiceA  
+    public class ReturnService : IReturnService
     {  
         public void Execute()  
         {  
-            Console.WriteLine("A service called.");  
+            Console.WriteLine("Order service called.");  
         }  
     }  
   
-    public interface IServiceB  
+    public interface IUpdateService  
     {  
         void Execute();  
     }  
   
-    public class ServiceB : IServiceB  
+    public class UpdateService : IUpdateService  
     {  
         public void Execute()  
         {  
-            Console.WriteLine("B service called.");  
+            Console.WriteLine("Update service called.");  
         }  
     }  
   
@@ -35,18 +35,18 @@ namespace ServiceLocator.GenericExample
     }  
     public class ServiceLocator : IService  
     {  
-        public Dictionary<object, object> servicecontainer = null;  
+        public Dictionary<object, object> serviceContainer = null;  
         public ServiceLocator()  
         {  
-            servicecontainer = new Dictionary<object, object>();  
-            servicecontainer.Add(typeof(IServiceA), new ServiceA());  
-            servicecontainer.Add(typeof(IServiceB), new ServiceB());  
+            serviceContainer = new Dictionary<object, object>();  
+            serviceContainer.Add(typeof(IReturnService), new ReturnService());  
+            serviceContainer.Add(typeof(IUpdateService), new UpdateService());  
         }  
         public T GetService<T>()  
         {  
             try  
             {  
-                return (T)servicecontainer[typeof(T)];  
+                return (T)serviceContainer[typeof(T)];  
             }  
             catch (Exception ex)  
             {  
@@ -58,12 +58,12 @@ namespace ServiceLocator.GenericExample
     {  
         static void Main(string[] args)  
          {  
-            ServiceLocator loc = new ServiceLocator();  
-            IServiceA Aservice =  loc.GetService<IServiceA>();  
-            Aservice.Execute();  
+            ServiceLocator locator = new ServiceLocator();  
+            IReturnService returnSservice =  locator.GetService<IReturnService>();  
+            returnSservice.Execute();  
   
-            IServiceB Bservice = loc.GetService<IServiceB>();  
-            Bservice.Execute();  
+            IUpdateService updateService = locator.GetService<IUpdateService>();  
+            updateService.Execute();  
   
            Console.ReadLine();  
          }  
