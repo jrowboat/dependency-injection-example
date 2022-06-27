@@ -6,10 +6,13 @@
 
 ### How does the service locator pattern satisfy the "Dependency Inversion" principle of SOLID?
 
+- Example classes no longer depend directly on the service class they need. Now they just get the type of dependency they need from the service locator
+
 ### How does the service locator pattern not satisfy the "Dependency Inversion" principle of SOLID?
 
+- Example classes now dependent on service locator class, which is dependent on explicitly named classes
+
 ## Ducking
-- [Geeks for Geeks Service locator example article](https://www.geeksforgeeks.org/service-locator-pattern/)
 - [CSharp Corner Service locator example article](https://www.c-sharpcorner.com/UploadFile/dacca2/service-locator-design-pattern/)
 - GOAL: keep each example in line with the OrderService problem domain
 - Treating order service as the repo name, no longer a class name
