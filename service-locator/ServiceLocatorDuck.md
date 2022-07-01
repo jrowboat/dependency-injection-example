@@ -26,3 +26,11 @@
 - commonly see the line "abstracts all the complexities"
 - seems to vary in complexity [J2EE](https://www.oracle.com/java/technologies/service-locator.html)
 - Q: Does the service locator pattern implement calls to a service locator from client-side? API Controller uses service locator? Assumption is yes
+
+## Analysis of example
+
+- Discussion:
+
+- What is done well with this example?
+- What can be improved upon?
+- What was missed in this pattern breakdown?
