@@ -80,3 +80,11 @@
 - Use of interfaces hides functionality behind the interface for classes consuming said interface
 
 ### How and Why DI fails to satisfy IoC
+
+# Ducking - Fifth run
+
+## 
+- What practice of service locator satisfies dependency injection? 
+- How can service locator satisfy dependency injection?
+- How can service locator satisfy dependency inversion?
+- Aim: how does the version of service locator compare to our other patterns?
