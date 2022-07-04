@@ -87,6 +87,10 @@
 - What practice of service locator satisfies dependency injection? 
     - Contructor injection of a service locator
         - Pro: external applications using component with a constructor-injected service locator can plug in their own version of a service locator to satisfy the requirements of the main component
+        - Con: external application using main may not have type of service locator in use (just need to substitute in this situation)
 - How can service locator satisfy dependency inversion?
+    - If service locator can satisfy dependency injection, the service locator pattern can (via the transitive property :) ) implement dependency inversion via the use of dependency injection. Now, the component using the service locator is no longer dependent upon the third party dependency, but the service locator. The dependency is just switched, but the main class (the caller) is no longer directly dependent upon a concrete example of any dependency. Any service that the service locator uses to satisfy calls for any type of service is now abstracted from the main class, thus the dependency is now on the external services to satisfy the criteria set by the service locator. 
+        - Pro: abstraction of external dependencies from main class (the caller)
+        - Con: hidden dependencies
 - Aim: how does the version of service locator compare to our other patterns?
     - Constructor injection of service locator 
