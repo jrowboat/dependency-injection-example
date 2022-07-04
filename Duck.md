@@ -83,8 +83,10 @@
 
 # Ducking - Fifth run
 
-## 
+## Answering homework questions
 - What practice of service locator satisfies dependency injection? 
-- How can service locator satisfy dependency injection?
+    - Contructor injection of a service locator
+        - Pro: external applications using component with a constructor-injected service locator can plug in their own version of a service locator to satisfy the requirements of the main component
 - How can service locator satisfy dependency inversion?
 - Aim: how does the version of service locator compare to our other patterns?
+    - Constructor injection of service locator 
