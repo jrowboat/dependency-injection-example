@@ -94,3 +94,5 @@
         - Con: hidden dependencies
 - Aim: how does the version of service locator compare to our other patterns?
     - Constructor injection of service locator 
+- How does the main class know what to ask for from service locator?
+    - 
