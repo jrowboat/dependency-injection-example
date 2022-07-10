@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Interfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Interfaces.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../Interfaces/Interfaces.csproj",
-      "msbuildProject": "../Interfaces/Interfaces.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Interfaces >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "/Users/jrowen/.nuget/packages/": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/NotificationService.csproj",
-      "projectName": "NotificationService",
-      "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/NotificationService.csproj",
+      "projectUniqueName": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj",
+      "projectName": "Interfaces",
+      "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj",
       "packagesPath": "/Users/jrowen/.nuget/packages/",
-      "outputPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/obj/",
+      "outputPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -54,11 +35,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj": {
-              "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

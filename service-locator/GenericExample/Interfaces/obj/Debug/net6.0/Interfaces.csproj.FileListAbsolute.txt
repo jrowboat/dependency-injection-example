@@ -1,0 +1,12 @@
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/bin/Debug/net6.0/Interfaces.deps.json
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/bin/Debug/net6.0/Interfaces.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/bin/Debug/net6.0/Interfaces.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/Debug/net6.0/Interfaces.csproj.AssemblyReference.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/Debug/net6.0/Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/Debug/net6.0/Interfaces.AssemblyInfoInputs.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/Debug/net6.0/Interfaces.AssemblyInfo.cs
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/Debug/net6.0/Interfaces.csproj.CoreCompileInputs.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/Debug/net6.0/Interfaces.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/Debug/net6.0/refint/Interfaces.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/Debug/net6.0/Interfaces.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/obj/Debug/net6.0/ref/Interfaces.dll

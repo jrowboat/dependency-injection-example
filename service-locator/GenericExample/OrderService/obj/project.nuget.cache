@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "POiv9cPUDmpH3Wr6H9lFNfyopIK7WYUBQ4B2M4Kc02DT1DoNmHkVVhpMAiUfh4skw+x3fnG0kBY8OB2h9y4tRw==",
+  "dgSpecHash": "2zaFV5LVe6jhcJ8Nu75QHcZvdnz5r/cyipCyf5WrUgvY7eoXQfDnQOIogNJJQ+2Hjn9TdkLAGsGPY+mJc1OK5Q==",
   "success": true,
   "projectFilePath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/OrderService.csproj",
   "expectedPackageFiles": [],
