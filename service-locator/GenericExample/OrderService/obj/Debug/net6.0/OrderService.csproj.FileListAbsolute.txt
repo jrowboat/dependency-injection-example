@@ -1,0 +1,15 @@
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/OrderService
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/OrderService.deps.json
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/OrderService.runtimeconfig.json
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/OrderService.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/OrderService.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.csproj.AssemblyReference.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.AssemblyInfoInputs.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.AssemblyInfo.cs
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.csproj.CoreCompileInputs.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/refint/OrderService.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.genruntimeconfig.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/ref/OrderService.dll
