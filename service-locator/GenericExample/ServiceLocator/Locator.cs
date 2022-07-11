@@ -1,4 +1,6 @@
 ﻿using Interfaces;
+using NotificationService;
+using ShippingService;
 
 namespace ServiceLocator;
 public class Locator : ILocator  

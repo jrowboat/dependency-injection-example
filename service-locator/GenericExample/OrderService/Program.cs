@@ -6,7 +6,7 @@ internal class Program
     private static void Main(string[] args)
     {
         ILocator locator = new Locator();  
-        INotificationService notificationService =  locator.GetService<INotificationService>();  
+        INotificationService notificationService = locator.GetService<INotificationService>();  
         notificationService.Notify("Customer notified");  
 
         IShippingService shippingService = locator.GetService<IShippingService>();  
