@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "OrderService/1.0.0": {
+        "dependencies": {
+          "Interfaces": "1.0.0",
+          "NotificationService": "1.0.0"
+        },
         "runtime": {
           "OrderService.dll": {}
+        }
+      },
+      "Interfaces/1.0.0": {
+        "runtime": {
+          "Interfaces.dll": {}
+        }
+      },
+      "NotificationService/1.0.0": {
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "NotificationService.dll": {}
         }
       }
     }
   },
   "libraries": {
     "OrderService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

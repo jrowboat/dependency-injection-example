@@ -13,3 +13,8 @@
 /Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.pdb
 /Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.genruntimeconfig.cache
 /Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/ref/OrderService.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/Interfaces.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/NotificationService.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/Interfaces.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/NotificationService.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.csproj.CopyComplete

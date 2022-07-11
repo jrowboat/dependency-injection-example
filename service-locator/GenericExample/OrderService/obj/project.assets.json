@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/Interfaces.dll": {}
         }
+      },
+      "NotificationService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NotificationService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NotificationService.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../Interfaces/Interfaces.csproj",
       "msbuildProject": "../Interfaces/Interfaces.csproj"
+    },
+    "NotificationService/1.0.0": {
+      "type": "project",
+      "path": "../NotificationService/NotificationService.csproj",
+      "msbuildProject": "../NotificationService/NotificationService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Interfaces >= 1.0.0"
+      "Interfaces >= 1.0.0",
+      "NotificationService >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -57,6 +76,9 @@
           "projectReferences": {
             "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj": {
               "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj"
+            },
+            "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/NotificationService.csproj": {
+              "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/NotificationService.csproj"
             }
           }
         }
