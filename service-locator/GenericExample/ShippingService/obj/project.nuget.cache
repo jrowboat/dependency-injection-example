@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "dgSpecHash": "O62lanmlztWb9tW3dRMsD60A05s75hjAQ2MkEkLfvECeZTty2zsg3ccWt5pD9h3JNLA5yZT/0lFJWdC+F9r+Lg==",
-  "success": true,
-  "projectFilePath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/ShippingService.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
-}

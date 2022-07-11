@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k5Tha8F7ZKPRhSCDbjEV89pYcBhoQBTWRtoQgTU8NLJAHSLtKaFwWxtBIh5BUCy4kUcGi1sLZce7s/+4she8Ew==",
+  "dgSpecHash": "HaKgjSERaEFhS+LBp4wWclZ00swxkW6xENyQXdY6AycOwi7igYMLZoQBelnVDRjY5wPJ6AvqLRNLnJ9ON+TpEA==",
   "success": true,
   "projectFilePath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ServiceLocator/ServiceLocator.csproj",
   "expectedPackageFiles": [],

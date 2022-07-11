@@ -63,8 +63,8 @@
     },
     "NotificationService/1.0.0": {
       "type": "project",
-      "path": "../NotificationService/NotificationService.csproj",
-      "msbuildProject": "../NotificationService/NotificationService.csproj"
+      "path": "../../Shared/NotificationService/NotificationService.csproj",
+      "msbuildProject": "../../Shared/NotificationService/NotificationService.csproj"
     },
     "ServiceLocator/1.0.0": {
       "type": "project",
@@ -73,8 +73,8 @@
     },
     "ShippingService/1.0.0": {
       "type": "project",
-      "path": "../ShippingService/ShippingService.csproj",
-      "msbuildProject": "../ShippingService/ShippingService.csproj"
+      "path": "../../Shared/ShippingService/ShippingService.csproj",
+      "msbuildProject": "../../Shared/ShippingService/ShippingService.csproj"
     }
   },
   "projectFileDependencyGroups": {

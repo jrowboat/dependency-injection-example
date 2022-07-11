@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "dgSpecHash": "Mkkx84pjZSHXMEFcG3Wr8GJJe4t61YO0X8RxrRHGU3oHVICvpdjzlakB26BLG4645QZYzDcPA1IBJm6RRj84yQ==",
-  "success": true,
-  "projectFilePath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/NotificationService.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
-}

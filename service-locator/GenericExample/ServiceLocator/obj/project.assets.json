@@ -48,13 +48,13 @@
     },
     "NotificationService/1.0.0": {
       "type": "project",
-      "path": "../NotificationService/NotificationService.csproj",
-      "msbuildProject": "../NotificationService/NotificationService.csproj"
+      "path": "../../Shared/NotificationService/NotificationService.csproj",
+      "msbuildProject": "../../Shared/NotificationService/NotificationService.csproj"
     },
     "ShippingService/1.0.0": {
       "type": "project",
-      "path": "../ShippingService/ShippingService.csproj",
-      "msbuildProject": "../ShippingService/ShippingService.csproj"
+      "path": "../../Shared/ShippingService/ShippingService.csproj",
+      "msbuildProject": "../../Shared/ShippingService/ShippingService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -96,11 +96,11 @@
             "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj": {
               "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj"
             },
-            "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/NotificationService.csproj": {
-              "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/NotificationService.csproj"
+            "/Users/jrowen/repos/dependency-injection-example/service-locator/Shared/NotificationService/NotificationService.csproj": {
+              "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/Shared/NotificationService/NotificationService.csproj"
             },
-            "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/ShippingService.csproj": {
-              "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/ShippingService.csproj"
+            "/Users/jrowen/repos/dependency-injection-example/service-locator/Shared/ShippingService/ShippingService.csproj": {
+              "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/Shared/ShippingService/ShippingService.csproj"
             }
           }
         }

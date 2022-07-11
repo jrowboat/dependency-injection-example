@@ -8,8 +8,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
-    <ProjectReference Include="..\NotificationService\NotificationService.csproj" />
-    <ProjectReference Include="..\ShippingService\ShippingService.csproj" />
+    <ProjectReference Include="..\..\Shared\NotificationService\NotificationService.csproj" />
+    <ProjectReference Include="..\..\Shared\ShippingService\ShippingService.csproj" />
   </ItemGroup>
 
 </Project>
