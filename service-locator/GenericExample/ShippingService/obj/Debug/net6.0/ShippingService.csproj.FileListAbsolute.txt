@@ -1,0 +1,15 @@
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/bin/Debug/net6.0/ShippingService.deps.json
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/bin/Debug/net6.0/ShippingService.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/bin/Debug/net6.0/ShippingService.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/bin/Debug/net6.0/Interfaces.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/bin/Debug/net6.0/Interfaces.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/ShippingService.csproj.AssemblyReference.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/ShippingService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/ShippingService.AssemblyInfoInputs.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/ShippingService.AssemblyInfo.cs
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/ShippingService.csproj.CoreCompileInputs.cache
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/ShippingService.csproj.CopyComplete
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/ShippingService.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/refint/ShippingService.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/ShippingService.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ShippingService/obj/Debug/net6.0/ref/ShippingService.dll

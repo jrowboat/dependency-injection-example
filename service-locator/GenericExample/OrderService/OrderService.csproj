@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
-    <ProjectReference Include="..\NotificationService\NotificationService.csproj" />
+    <ProjectReference Include="..\ServiceLocator\ServiceLocator.csproj" />
   </ItemGroup>
 
 </Project>

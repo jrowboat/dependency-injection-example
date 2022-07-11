@@ -18,3 +18,7 @@
 /Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/Interfaces.pdb
 /Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/NotificationService.pdb
 /Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/obj/Debug/net6.0/OrderService.csproj.CopyComplete
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/ServiceLocator.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/ShippingService.dll
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/ServiceLocator.pdb
+/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/OrderService/bin/Debug/net6.0/ShippingService.pdb

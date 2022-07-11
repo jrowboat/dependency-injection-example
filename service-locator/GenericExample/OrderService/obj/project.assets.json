@@ -24,6 +24,34 @@
         "runtime": {
           "bin/placeholder/NotificationService.dll": {}
         }
+      },
+      "ServiceLocator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Interfaces": "1.0.0",
+          "NotificationService": "1.0.0",
+          "ShippingService": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceLocator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceLocator.dll": {}
+        }
+      },
+      "ShippingService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShippingService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShippingService.dll": {}
+        }
       }
     }
   },
@@ -37,12 +65,22 @@
       "type": "project",
       "path": "../NotificationService/NotificationService.csproj",
       "msbuildProject": "../NotificationService/NotificationService.csproj"
+    },
+    "ServiceLocator/1.0.0": {
+      "type": "project",
+      "path": "../ServiceLocator/ServiceLocator.csproj",
+      "msbuildProject": "../ServiceLocator/ServiceLocator.csproj"
+    },
+    "ShippingService/1.0.0": {
+      "type": "project",
+      "path": "../ShippingService/ShippingService.csproj",
+      "msbuildProject": "../ShippingService/ShippingService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Interfaces >= 1.0.0",
-      "NotificationService >= 1.0.0"
+      "ServiceLocator >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -77,8 +115,8 @@
             "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj": {
               "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj"
             },
-            "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/NotificationService.csproj": {
-              "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/NotificationService/NotificationService.csproj"
+            "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ServiceLocator/ServiceLocator.csproj": {
+              "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/ServiceLocator/ServiceLocator.csproj"
             }
           }
         }

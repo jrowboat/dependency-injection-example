@@ -1,5 +1,5 @@
 ﻿namespace Interfaces;
 public interface INotificationService
 {
-    void Execute(string message);
+    void Notify(string message);
 }

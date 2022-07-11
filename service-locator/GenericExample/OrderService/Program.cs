@@ -1,9 +1,15 @@
-﻿using NotificationService;
-using Interfaces;
+﻿using Interfaces;
+using ServiceLocator;
 
-Console.WriteLine("Would you like to return or update an order?");
-var userChoice = Console.ReadLine();
-INotificationService service = new NotificationService.NotificationService();
-service.Execute("Customer notified");
-Console.Write($"{Environment.NewLine}Press any key to exit...");
-Console.ReadKey(true);
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        ILocator locator = new Locator();  
+        INotificationService notificationService =  locator.GetService<INotificationService>();  
+        notificationService.Notify("Customer notified");  
+
+        IShippingService shippingService = locator.GetService<IShippingService>();  
+        shippingService.Ship("Order shipped");  
+    }
+}

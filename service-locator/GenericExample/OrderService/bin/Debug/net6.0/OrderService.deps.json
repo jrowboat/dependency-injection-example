@@ -9,7 +9,7 @@
       "OrderService/1.0.0": {
         "dependencies": {
           "Interfaces": "1.0.0",
-          "NotificationService": "1.0.0"
+          "ServiceLocator": "1.0.0"
         },
         "runtime": {
           "OrderService.dll": {}
@@ -27,6 +27,24 @@
         "runtime": {
           "NotificationService.dll": {}
         }
+      },
+      "ServiceLocator/1.0.0": {
+        "dependencies": {
+          "Interfaces": "1.0.0",
+          "NotificationService": "1.0.0",
+          "ShippingService": "1.0.0"
+        },
+        "runtime": {
+          "ServiceLocator.dll": {}
+        }
+      },
+      "ShippingService/1.0.0": {
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "ShippingService.dll": {}
+        }
       }
     }
   },
@@ -42,6 +60,16 @@
       "sha512": ""
     },
     "NotificationService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceLocator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShippingService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

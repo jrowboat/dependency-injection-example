@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Interfaces.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Interfaces >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/jrowen/.nuget/packages/": {},
@@ -35,7 +54,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj": {
+              "projectPath": "/Users/jrowen/repos/dependency-injection-example/service-locator/GenericExample/Interfaces/Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

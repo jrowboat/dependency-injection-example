@@ -3,8 +3,8 @@
 namespace NotificationService;
 public class NotificationService : INotificationService
 {
-        public void Execute(string message)  
-        {  
-            Console.WriteLine(message);  
-        }
+    public void Notify(string message)  
+    {  
+        Console.WriteLine(message);  
+    }
 }
